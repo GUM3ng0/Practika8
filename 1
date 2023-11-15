@@ -1,0 +1,17 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    setlocale(0, "");
+    int a;
+    cout << "введите число: ";
+    cin >> a;
+    int i = 0;
+    while (a > 0)
+    {
+       a= a / 10;
+        i++;
+    }
+    cout <<"количесвто цифр в числе : " << i;
+}
