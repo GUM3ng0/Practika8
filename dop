@@ -21,6 +21,9 @@ int main()
     cout << arr[5] << c << endl;
     
     cout << endl << "обратно ";
-    cout << "aaacd";
+    for (int g = 0; g < 5; g++)
+    {
+        cout << arr[g];
+  }
        
 }
